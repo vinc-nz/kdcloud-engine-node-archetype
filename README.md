@@ -7,10 +7,10 @@ Use this package as base to develop a [kdcloud](http:///github.com/vispax/kd-clo
 Before you need to include the required libraries, which can be found in the `lib` folder.
 + If you are using maven you need to install them in your local repository:
 
->mvn install:install-file -Dfile=lib/kdcloud-engine-0.0.1-SNAPSHOT.jar \ <br>
->	 -DgroupId=com.kdcloud -DartifactId=kdcloud-engine -Dversion=0.0.1-SNAPSHOT <br>
->mvn install:install-file -Dfile=lib/weka-stripped-3.7.7-SNAPSHOT.jar \ <br>
->	 -DgroupId=com.kdcloud -DartifactId=weka-stripped -Dversion=3.7.7-SNAPSHOT <br>
+	mvn install:install-file -Dfile=lib/kdcloud-engine-0.0.1-SNAPSHOT.jar \
+		-DgroupId=com.kdcloud -DartifactId=kdcloud-engine -Dversion=0.2-SNAPSHOT
+	mvn install:install-file -Dfile=lib/weka-stripped-3.7.7-SNAPSHOT.jar \
+		-DgroupId=com.kdcloud -DartifactId=weka-stripped -Dversion=3.7.7-SNAPSHOT
 
 + If you are using Eclipse instead, create a project and include them in the build path, along with the JUnit4 library
 
